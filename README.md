@@ -9,12 +9,12 @@ This wrapper simplifies the retrieval and parsing of data from the database. All
 
 First you must import the class like: 
 
-`import Pokemon
+`import Pokemon `
 
 Then you must create an object of Pokemon and pass the name of the pokemon you wish to retrieve information about like:
 
-` charizard = Pokemon("charizard")
+` charizard = Pokemon("charizard") `
 
 Following are a list of methods that you can use currently:
 
-'getMoves()
+`getMoves() `
