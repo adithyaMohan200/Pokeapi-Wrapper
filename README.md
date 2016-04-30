@@ -77,24 +77,24 @@ Following are a list of methods that you can use currently:
     
 #Examples
     
-    #Input
+    Input
       ```
       pok = Pokemon("eevee")
       print (pok.returnLocationVersionDetails("castelia-city-area"))
       ```
     
-    # Output
+    Output
       ```
       [{'methodName': u'dark-grass', 'versionName': u'black-2', 'maxChance': 10, 'minLevel': 19, 'chance': 4, 'conditionValues': [], 'maxLevel': 19}, {'methodName': u'dark-grass', 'versionName': u'black-2', 'maxChance': 10, 'minLevel': 19, 'chance': 1, 'conditionValues': [], 'maxLevel': 19}, {'methodName': u'walk', 'versionName': u'black-2', 'maxChance': 10, 'minLevel': 18, 'chance': 4, 'conditionValues': [], 'maxLevel': 18}, {'methodName': u'walk', 'versionName': u'black-2', 'maxChance': 10, 'minLevel': 18, 'chance': 1, 'conditionValues': [], 'maxLevel': 18}, {'methodName': u'dark-grass', 'versionName': u'white-2', 'maxChance': 10, 'minLevel': 19, 'chance': 4, 'conditionValues': [], 'maxLevel': 19}, {'methodName': u'dark-grass', 'versionName': u'white-2', 'maxChance': 10, 'minLevel': 19, 'chance': 1, 'conditionValues': [], 'maxLevel': 19}, {'methodName': u'walk', 'versionName': u'white-2', 'maxChance': 10, 'minLevel': 18, 'chance': 4, 'conditionValues': [], 'maxLevel': 18}, {'methodName': u'walk', 'versionName': u'white-2', 'maxChance': 10, 'minLevel': 18, 'chance': 1, 'conditionValues': [], 'maxLevel': 18}]
       ```
       
-    # Input 
+    Input 
       ```
       pok = Pokemon("eevee")
       print (pok.getMoves())
       ```
       
-    # Output
+    Output
       ```
       [u'sand-attack', u'headbutt', u'tackle', u'body-slam', u'take-down', u'double-edge', u'tail-whip', u'bite', u'growl', u'dig', u'toxic', u'quick-attack', u'rage', u'mimic', u'double-team', u'reflect', u'focus-energy', u'bide', u'swift', u'skull-bash', u'rest', u'substitute', u'snore', u'curse', u'flail', u'protect', u'mud-slap', u'detect', u'endure', u'charm', u'swagger', u'attract', u'sleep-talk', u'heal-bell', u'return', u'frustration', u'baton-pass', u'iron-tail', u'hidden-power', u'rain-dance', u'sunny-day', u'shadow-ball', u'facade', u'helping-hand', u'wish', u'yawn', u'refresh', u'secret-power', u'hyper-voice', u'fake-tears', u'tickle', u'covet', u'natural-gift', u'trump-card', u'last-resort', u'captivate', u'synchronoise', u'round', u'echoed-voice', u'stored-power', u'retaliate', u'work-up', u'confide', u'baby-doll-eyes']
       ```
