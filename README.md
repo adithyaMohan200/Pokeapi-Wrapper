@@ -1,4 +1,4 @@
-# Pok-api-Wrapper
+# Pokeapi-Wrapper
 #A wrapper for the Pokéapi in python
 
 # Purpose
