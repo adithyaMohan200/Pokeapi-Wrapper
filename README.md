@@ -67,7 +67,6 @@ Following are a list of methods that you can use currently:
     
   `getMoveVersionDetails(move)`
     Given a move this method returns a list of dictionaries containing information about the version details of the move.
-    
     `{'level':level,'versionName':versionName,'moveLearnMethod':moveLearnMethod`
     
   `getLocationVersionDetails(area)`
@@ -76,7 +75,7 @@ Following are a list of methods that you can use currently:
     {'maxChance':maxChance,'minLevel':minLevel,'maxLevel':maxLevel,'conditionValues':conditionValues,'chance':chance,'methodName':methodName,'versionName':versionName}
     ```
     
-  #Examples
+ #Examples
     
     #Input
       ```
