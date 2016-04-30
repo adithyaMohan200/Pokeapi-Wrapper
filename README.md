@@ -73,8 +73,7 @@ Following are a list of methods that you can use currently:
   `getLocationVersionDetails(area)`
     Given a location this method returns a list of dictionaries containing information about the version details of the locations.
     ```
-      {'maxChance':maxChance,'minLevel':minLevel,'maxLevel':maxLevel,'conditionValues':conditionValues,'chance':chance,'methodName':methodName,'versionName':versionName}
-      
+    {'maxChance':maxChance,'minLevel':minLevel,'maxLevel':maxLevel,'conditionValues':conditionValues,'chance':chance,'methodName':methodName,'versionName':versionName}
     ```
     
   #Examples
