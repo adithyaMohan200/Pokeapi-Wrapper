@@ -96,13 +96,13 @@ class Pokemon:
 	def isDefault(self):
 		return self.info['is_default']
 	
-	def returnOrder(self):
+	def getOrder(self):
 		return self.info['order']
 
-	def returnWeight(self):
+	def getWeight(self):
 		return self.info['weight']
 
-	def returnMoveVersionDetails(self,move):
+	def getMoveVersionDetails(self,move):
 		details=[]
 		for i in range(0,len(self.info['moves'])):
 			if self.info['moves'][i]['move']['name'] == move:
@@ -114,7 +114,7 @@ class Pokemon:
 		
 		return details
 
-	def returnLocationVersionDetails(self,area):
+	def getLocationVersionDetails(self,area):
                 details=[]
                 for i in range(0,len(self.info['location_area_encounters'])):
                         if self.info['location_area_encounters'][i]['location_area']['name'] == area:
