@@ -1,7 +1,6 @@
 # Python Pokeapi-Wrapper
 #A wrapper for the Pokéapi in python
 
-#Notice
 
 # Purpose
 
