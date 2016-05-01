@@ -3,7 +3,7 @@
 
 # Purpose
 
-This wrapper simplifies the retrieval and parsing of data from the [Pokeapi databse](http://pokeapi.co/). All methods either return a string, number or a dictionary that you can loop through to find what data you want. I will be adding more features as time passes 
+This wrapper simplifies the retrieval and parsing of data from the [Pokeapi database](http://pokeapi.co/). All methods either return a string, number or a dictionary that you can loop through to find what data you want. I will be adding more features as time passes 
 
 # Installation
 `sudo pip install PokeapiWrapper`
