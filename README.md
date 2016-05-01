@@ -1,5 +1,5 @@
-# Python Pokeapi-Wrapper
-#A wrapper for the Pokéapi in python
+# Python PokeapiWrapper
+#A wrapper for the Pokéapi in python( Also a pip module)
 
 
 # Purpose
