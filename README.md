@@ -1,15 +1,20 @@
-# Pok-api-Wrapper
+# Python Pokeapi-Wrapper
 #A wrapper for the Pokéapi in python
+
+#Notice
 
 # Purpose
 
-This wrapper simplifies the retrieval and parsing of data from the database. All methods either return a string, number or a dictionary that you can loop through to find what data you want. I will be adding more features as time passes 
+This wrapper simplifies the retrieval and parsing of data from the [Pokeapi database](http://pokeapi.co/). All methods either return a string, number or a dictionary that you can loop through to find what data you want. I will be adding more features as time passes 
+
+# Installation
+`sudo pip install PokeapiWrapper`
 
 # Usage
 
 First you must import the class like: 
 
-`import Pokemon `
+`from pokeapi.pokemon import Pokemon `
 
 Then you must create an object of Pokemon and pass the name of the pokemon you wish to retrieve information about like:
 
@@ -109,3 +114,4 @@ Following are a list of methods that you can use currently:
     
   `
   
+
