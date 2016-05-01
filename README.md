@@ -2,7 +2,6 @@
 #A wrapper for the Pokéapi in python
 
 #Notice
-Only works for Python 2.x not python 3.x
 
 # Purpose
 
