@@ -12,7 +12,7 @@ This wrapper simplifies the retrieval and parsing of data from the [Pokeapi data
 
 First you must import the class like: 
 
-`from pokeapi import pokemon.Pokemon `
+`from pokeapi.pokemon import Pokemon `
 
 Then you must create an object of Pokemon and pass the name of the pokemon you wish to retrieve information about like:
 
