@@ -1,6 +1,9 @@
 # Python Pokeapi-Wrapper
 #A wrapper for the Pokéapi in python
 
+#Notice
+Only works for Python 2.x not python 3.x
+
 # Purpose
 
 This wrapper simplifies the retrieval and parsing of data from the [Pokeapi database](http://pokeapi.co/). All methods either return a string, number or a dictionary that you can loop through to find what data you want. I will be adding more features as time passes 
