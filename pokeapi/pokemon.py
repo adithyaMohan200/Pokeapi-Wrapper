@@ -1,32 +1,32 @@
 import requests
 import json
 class Pokemon:
-    
+
     def __init__(self,poke):
-        pokel = poke.lower()    
+        pokel = poke.lower()
         pokemon = requests.get('http://pokeapi.co/api/v2/pokemon/' + pokel)
         self.info = json.loads(pokemon.text)
     def getMoves(self):
-        
+
         moves=[]
         search = len(self.info['moves'])
         for i in range(0,search):
             moves.append(self.info['moves'][i]['move']['name'])
-            
+
         return moves
-    
+
     def getName(self):
         return self.info['name']
-    
+
     def getAbilities(self):
         abilities = []
-        
+
         for i in range(0,len(self.info['abilities'])):
             hidden = self.info['abilities'][i]['is_hidden']
             slot = self.info['abilities'][i]['slot']
             name= self.info['abilities'][i]['ability']['name']
             abilities.append({'isHidden':hidden,'slot':slot,'name':name})
-        
+
         return abilities
 
 
@@ -34,10 +34,10 @@ class Pokemon:
         forms=[]
         for i in range(0,len(self.info['forms'])):
             forms.append(self.info['forms'][i]['name'])
-        
+
         return forms
 
-    
+
     def getGameIndices(self):
         indices = []
 
@@ -45,7 +45,7 @@ class Pokemon:
             gameIndex  = self.info['game_indices'][i]['game_index']
             version = self.info['game_indices'][i]['version']['name']
             indices.append({'gameIndex':gameIndex,'version':version})
-                
+
             return indices
 
     def getHeldItems(self):
@@ -58,7 +58,7 @@ class Pokemon:
         encounters=[]
         for i in range(0,len(self.info['location_area_encounters'])):
             encounters.append(self.info['location_area_encounters'][i]['location_area']['name'])
-        
+
         return encounters
 
     def getSpecies(self):
@@ -83,16 +83,16 @@ class Pokemon:
 
     def getId(self):
         return self.info['id']
-    
+
     def getBaseExperience(self):
         return self.info['base_experience']
-    
+
     def getHeight(self):
         return self.info['height']
 
     def isDefault(self):
         return self.info['is_default']
-    
+
     def getOrder(self):
         return self.info['order']
 
@@ -108,7 +108,7 @@ class Pokemon:
                     versionName = self.info['moves'][i]['version_group_details'][j]['version_group']['name']
                     moveLearnMethod = self.info['moves'][i]['version_group_details'][j]['move_learn_method']['name']
                     details.append({'level':level,'versionName':versionName,'moveLearnMethod':moveLearnMethod})
-        
+
         return details
 
     def getLocationVersionDetails(self,area):
@@ -125,5 +125,9 @@ class Pokemon:
                         chance = self.info['location_area_encounters'][i]['version_details'][j]['encounter_details'][z]['chance']
                         methodName = self.info['location_area_encounters'][i]['version_details'][j]['encounter_details'][z]['method']['name']
                         details.append({'maxChance':maxChance,'minLevel':minLevel,'maxLevel':maxLevel,'conditionValues':conditionValues,'chance':chance,'methodName':methodName,'versionName':versionName})
-                    
+
                 return details
+
+    def getSprites(self):
+        return self.info['sprites']['front_default']
+
