@@ -68,6 +68,9 @@ Following are a list of methods that you can use currently:
     
   `getWeight()`
     This method returns the weight of the pokemon.
+
+  `getSprites()`
+    This method returns links in a dictionary to the different views of the pokemon
     
   `getMoveVersionDetails(move)`
     Given a move this method returns a list of dictionaries containing information about the version details of the move.
@@ -79,8 +82,7 @@ Following are a list of methods that you can use currently:
     {'maxChance':maxChance,'minLevel':minLevel,'maxLevel':maxLevel,'conditionValues':conditionValues,'chance':chance,'methodName':methodName,'versionName':versionName}
     ```
     
-    `getSprites()`
-     This method returns links in a dictionary to the different views of the pokemon
+    
     
 #Examples
     
