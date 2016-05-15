@@ -127,3 +127,8 @@ class Pokemon:
                         details.append({'maxChance':maxChance,'minLevel':minLevel,'maxLevel':maxLevel,'conditionValues':conditionValues,'chance':chance,'methodName':methodName,'versionName':versionName})
                     
                 return details
+
+
+
+    def getSprites(self):
+         return self.info['sprites']
