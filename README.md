@@ -79,6 +79,9 @@ Following are a list of methods that you can use currently:
     {'maxChance':maxChance,'minLevel':minLevel,'maxLevel':maxLevel,'conditionValues':conditionValues,'chance':chance,'methodName':methodName,'versionName':versionName}
     ```
     
+    `getSprites()`
+     This method returns links in a dictionary to the different views of the pokemon
+    
 #Examples
     
     Input
