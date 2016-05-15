@@ -123,12 +123,11 @@ class Pokemon:
                                         versionName = self.info['location_area_encounters'][i]['version_details'][j]['version']['name']
 					for z in range(0,len(self.info['location_area_encounters'][i]['version_details'][j]['encounter_details'])):
 						minLevel = self.info['location_area_encounters'][i]['version_details'][j]['encounter_details'][z]['min_level']
-				        	maxLevel = self.info['location_area_encounters'][i]['version_details'][j]['encounter_details'][z]['max_level']
-                                        	conditionValues = self.info['location_area_encounters'][i]['version_details'][j]['encounter_details'][z]['condition_values']
+				        maxLevel = self.info['location_area_encounters'][i]['version_details'][j]['encounter_details'][z]['max_level']
+                        conditionValues = self.info['location_area_encounters'][i]['version_details'][j]['encounter_details'][z]['condition_values']
 						chance = self.info['location_area_encounters'][i]['version_details'][j]['encounter_details'][z]['chance']
 						methodName = self.info['location_area_encounters'][i]['version_details'][j]['encounter_details'][z]['method']['name']
-                                        	details.append({'maxChance':maxChance,'minLevel':minLevel,'maxLevel':maxLevel,'conditionValues':conditionValues,'chance':chance,'methodName':methodName,'versionName':versionName})
+                        details.append({'maxChance':maxChance,'minLevel':minLevel,'maxLevel':maxLevel,'conditionValues':conditionValues,'chance':chance,'methodName':methodName,'versionName':versionName})
 					
-		return details
+		        return details
 
-                return details
